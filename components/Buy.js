@@ -128,8 +128,8 @@ export default function Buy({ itemID }) {
       {item ? (
         <IPFSDownload hash={item.hash} filename={item.filename} />
       ) : (
-        <button disabled={loading} className="buy-button" onClick={processTransaction}>
-          Buy now 🠚
+        <button disabled={loading} className="contact-send-button btn btn-lg rounded-pill" onClick={processTransaction}>
+          Pay Qubes
         </button>
       )}
     </div>
